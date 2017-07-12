@@ -1,0 +1,87 @@
+/*Font Styles:
+font-family: 'Courgette', cursive;*/
+
+/*main styles*/
+
+body {
+  background-color: rgba(55, 126, 6, 0.5);
+}
+
+header h1 {
+  font-family: 'Courgette', cursive;
+  color: white;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+header h2 {
+  color: white;
+}
+
+footer h3, h2, h4{
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  color: #918990;
+}
+
+footer h3 {
+  color: white;
+}
+
+main {
+  min-height: calc(100vh - 240px);
+  background-color: white;
+}
+
+
+footer {
+  height: 50px;
+}
+/*Deck Styles*/
+
+.deck {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
+
+.card {
+  margin: 2rem;
+}
+
+
+
+/*Button styles*/
+.btn {
+  display: block;
+  background: #d98f34;
+  background-image: -webkit-linear-gradient(top, #d98f34, #9c7025);
+  background-image: -moz-linear-gradient(top, #d98f34, #9c7025);
+  background-image: -ms-linear-gradient(top, #d98f34, #9c7025);
+  background-image: -o-linear-gradient(top, #d98f34, #9c7025);
+  background-image: linear-gradient(to bottom, #d98f34, #9c7025);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  justify-content: center;
+  text-decoration: none;
+  border-style: none;
+  margin: 3rem auto;
+}
+
+.btn:active {
+  background: #fc8f3c;
+  background-image: -webkit-linear-gradient(top, #fc8f3c, #c46613);
+  background-image: -moz-linear-gradient(top, #fc8f3c, #c46613);
+  background-image: -ms-linear-gradient(top, #fc8f3c, #c46613);
+  background-image: -o-linear-gradient(top, #fc8f3c, #c46613);
+  background-image: linear-gradient(to bottom, #fc8f3c, #c46613);
+  text-decoration: none;
+}
