@@ -7,35 +7,38 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link href="lightbox/css/lightbox.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sw.css">
     <link rel="stylesheet" href="css/media-queries.css">
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
   </head>
   <body>
     <header>
-        <div class="right black">
-          <a href="index2.html">
-            <h1 class="sw">Star Wars</h1>
-            <h2 class="sw">click on a movie to learn more</h2>
-          </a>
-        </div>
-        <div class="left green">
-          <a href="index.html">
-            <h1>Card Deck</h1>
-            <h2>click on a card to learn more</h2>
-          </a>
-        </div>
+
+      <div class="right green">
+        <a href="index.html">
+          <h1>Card Deck</h1>
+          <h2>click on a card to learn more</h2>
+        </a>
+      </div>
+      <div class="left black">
+        <a href="index2.html">
+          <h1 class="sw">Star Wars</h1>
+          <h2 class="sw">click on a movie to learn more</h2>
+        </a>
+      </div>
     </header>
     <main>
-      <div id="cards" class="photos">
+      <div id="cards">
 
       </div>
+        <button class="sorter">Sort films by episode</button>
     </main>
     <footer>
-      <h3>Special thanks to <a href="http://deckofcardsapi.com/" target="_blank">deckofcardsapi.com</a></h3>
+      <h3>Special thanks to <a href="https://swapi.co/documentation#intro" target="_blank">Star Wars API</a></h3>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/script-cards.js" type="text/javascript"></script>
+    <script src="js/script2.js" type="text/javascript"></script>
     <script src="lightbox/js/lightbox.js"></script>
   </body>
 </html>

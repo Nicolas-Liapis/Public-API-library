@@ -1,21 +1,45 @@
 /*Font Styles:
-font-family: 'Courgette', cursive;*/
-
+font-family: 'Courgette', cursive;
+beige:  rgba(235, 202, 118, 0.76)
+green: rgba(55, 126, 6, 0.5)*/
 /*main styles*/
 
 body {
   background-color: rgba(55, 126, 6, 0.5);
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 header h1 {
   font-family: 'Courgette', cursive;
   color: white;
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 header h2 {
   color: white;
+}
+
+.left, .right {
+  width: 100%;
+}
+
+.black {
+  background: rgba(70, 68, 64, 0.76);
+}
+
+.green {
+  background: #4f981e;
+}
+
+.sw {
+  font-family: 'Pathway Gothic One', sans-serif;
 }
 
 footer h3, h2, h4{
@@ -37,6 +61,10 @@ main {
 footer {
   height: 50px;
 }
+
+header a {
+  text-decoration: none;
+}
 /*Deck Styles*/
 
 .deck {
@@ -52,6 +80,9 @@ footer {
   margin: 2rem;
 }
 
+.title {
+  margin-left: -2.5rem;
+}
 
 /* lightbox hacks */
 #lightbox-container-image-data-box {
@@ -121,6 +152,10 @@ footer {
   opacity: 1.0;
 }
 
+.deck {
+  margin-top: 0;
+}
+
 /* lightbox hacks */
 #lightbox-container-image-data-box {
   -webkit-box-sizing: content-box;
@@ -130,4 +165,16 @@ footer {
 
 #lightbox-container-image-data-box {
   display: none !important;
+}
+
+.sorter {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: 'Pathway Gothic One', sans-serif;
+  width: 12rem;
 }

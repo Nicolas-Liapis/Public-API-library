@@ -210,6 +210,10 @@ body.lb-disable-scrolling {
   transition: opacity 0.2s;
 }
 
+.lb-close {
+  margin-left: -5rem;
+}
+
 .lb-data .lb-close:hover {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);

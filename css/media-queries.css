@@ -5,4 +5,39 @@
   .lightbox {
     margin-top: 10rem;
   }
+
+  header {
+    flex-direction: row-reverse;
+  }
+  .left {
+    padding: 1rem;
+    width: 45.8%;
+  }
+
+  .right {
+    padding: 1rem;
+    width: 45.8%;
+  }
+
+  .sw {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .left {
+    padding: 1rem;
+    width: 46.8%;
+  }
+
+  .right {
+    padding: 1rem;
+    width: 46.8%;
+  }
+
+  main {
+    width: 90%;
+    margin: 0 auto;
+  }
+
 }

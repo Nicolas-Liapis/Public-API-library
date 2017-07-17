@@ -1,24 +1,14 @@
 $(document).ready(function() {
-
   var cardsAPI = 'https://deckofcardsapi.com/api/deck/new/draw/?count=6';
-
   function displayCards(data) {
     var cardsHTML = '<ul class="deck">';
     $.each(data.cards, function (i, card) {
       cardsHTML += '<li class="card">';
-      cardsHTML += '<a href=" ' + card.image + '" rel="lightbox" target="_blank" data-title="Value: ' + card.value + ' </br> Suit: ' + card.suit + ' </br> Code: ' + card.code + '"><img src=" ' + card.image + ' " >';
+      cardsHTML += '<a href=" ' + card.image + '" rel="lightbox" target="_blank" data-lightbox="in" data-title="Value: ' + card.value + ' </br> Suit: ' + card.suit + ' </br> Code: ' + card.code + '"><img src=" ' + card.image + ' " >';
       cardsHTML += '</a></li>';
     });
     cardsHTML += '</ul>';
     $('#cards').html(cardsHTML);
   }
   $.getJSON(cardsAPI, displayCards);
-
 });
-
-// lightbox.option({
-//   'fitImagesInViewport': true,
-//   'showImageNumberLabel': false,
-//   'wrapAround': true,
-//   'albumLabel': "test"
-// });

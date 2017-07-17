@@ -1,0 +1,43 @@
+/*Font Styles:
+font-family: 'Courgette', cursive;
+beige:  rgba(235, 202, 118, 0.76)
+green: rgba(55, 126, 6, 0.5)
+black: rgba(70, 68, 64, 0.76)*/
+
+/*main styles*/
+
+
+body {
+  font-family: 'Pathway Gothic One', sans-serif;
+  background: rgba(70, 68, 64, 0.76);
+}
+
+main {
+  min-height: calc(97vh - 240px);
+  background-color: white;
+}
+
+
+/*Deck Styles*/
+
+.film-list {
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+  margin-top: 0;
+  list-style: none;
+}
+
+.title {
+  padding: 1rem;
+}
+
+.title a {
+  text-decoration: none;
+  color: rgba(70, 68, 64, 0.99)
+
+}
+
+.lb-caption {
+  font-family: 'Pathway Gothic One', sans-serif;
+}
