@@ -5,7 +5,7 @@ green: rgba(55, 126, 6, 0.5)*/
 /*main styles*/
 
 body {
-  background-color: rgba(55, 126, 6, 0.5);
+  background-color: #4f981e;
 }
 
 header {
@@ -31,7 +31,7 @@ header h2 {
 }
 
 .black {
-  background: rgba(70, 68, 64, 0.76);
+  background: #464440;
 }
 
 .green {
