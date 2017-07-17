@@ -4,7 +4,7 @@ $(document).ready(function() {
     var cardsHTML = '<ul class="deck">';
     $.each(data.cards, function (i, card) {
       cardsHTML += '<li class="card">';
-      cardsHTML += '<a href=" ' + card.image + '" rel="lightbox" target="_blank" data-lightbox="in" data-title="Value: ' + card.value + ' </br> Suit: ' + card.suit + ' </br> Code: ' + card.code + '"><img src=" ' + card.image + ' " >';
+      cardsHTML += '<a href=" ' + card.image + '" rel="lightbox" target="_blank" data-lightbox="inside" data-title="Value: ' + card.value + ' </br> Suit: ' + card.suit + ' </br> Code: ' + card.code + '"><img src=" ' + card.image + ' " >';
       cardsHTML += '</a></li>';
     });
     cardsHTML += '</ul>';
@@ -19,7 +19,7 @@ function newa() {
     var cardsHTML = '<ul class="deck">';
     $.each(data.cards, function (i, card) {
       cardsHTML += '<li class="card">';
-      cardsHTML += '<a href=" ' + card.image + '" rel="lightbox" target="_blank" data-lightbox="in" data-title="Value: ' + card.value + ' </br> Suit: ' + card.suit + ' </br> Code: ' + card.code + '"><img src=" ' + card.image + ' " >';
+      cardsHTML += '<a href=" ' + card.image + '" rel="lightbox" target="_blank" data-lightbox="inside" data-title="Value: ' + card.value + ' </br> Suit: ' + card.suit + ' </br> Code: ' + card.code + '"><img src=" ' + card.image + ' " >';
       cardsHTML += '</a></li>';
     });
     cardsHTML += '</ul>';
